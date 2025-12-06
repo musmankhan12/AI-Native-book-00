@@ -83,7 +83,7 @@ const config: Config = {
           label: "Course Modules",
         },
         {
-          href: "https://github.com/Syedaashnaghazanfar/speckit-book-hackathon.io",
+          href: "https://github.com/SyedAli1274/AI-Native-book",
           label: "GitHub",
           position: "right",
         },
@@ -132,7 +132,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub Repository",
-              href: "https://github.com/Syedaashnaghazanfar/speckit-book-hackathon.io",
+              href: "https://github.com/SyedAli1274/AI-Native-book",
             },
             {
               label: "NVIDIA Isaac",
@@ -142,7 +142,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Made by Ashna Ghazanfar.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Made by Syed Ali.`,
     },
     prism: {
       theme: prismThemes.github,
