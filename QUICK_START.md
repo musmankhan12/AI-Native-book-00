@@ -136,7 +136,7 @@ git push
 ### Backend (Hugging Face Spaces)
 1. Update repo on Hugging Face
 2. HF auto-deploys Docker image
-3. Check: https://ashnaali22-hackhathon-backend.hf.space/docs
+3. Check: https://YOUR_BACKEND_URL.hf.space/docs
 
 ---
 

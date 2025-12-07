@@ -24,9 +24,11 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Detect environment and use appropriate API URL
-const API_URL = typeof window !== 'undefined' && window.location.hostname === "localhost"
-  ? "http://localhost:8000"
-  : "https://ashnaali22-hackhathon-backend.hf.space";
+// Prefer explicit env var overrides (REACT_APP_API_URL / VITE_API_URL), otherwise localhost or placeholder
+const API_URL = (process.env.REACT_APP_API_URL ?? process.env.VITE_API_URL) ||
+  (typeof window !== 'undefined' && window.location.hostname === "localhost"
+    ? "http://localhost:8000"
+    : "https://YOUR_BACKEND_URL.hf.space");
 
 // Theme colors matching the website
 const THEME_COLOR = '#9333ea'; // Purple

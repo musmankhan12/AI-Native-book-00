@@ -97,11 +97,11 @@ const ChatWidget = forwardRef<ChatWidgetRef>((props, ref) => {
 
     try {
       // Detect environment and use appropriate API URL
-      // In production (deployed), use Hugging Face Space URL
-      // In development (localhost), use local backend
-      const apiUrl = window.location.hostname === "localhost"
-        ? "http://localhost:8000"
-        : "https://ashnaali22-hackhathon-backend.hf.space";
+      // Prefer explicit env var overrides, fall back to localhost or a placeholder HF URL
+      const apiUrl = (process.env.REACT_APP_API_URL ?? process.env.VITE_API_URL) ||
+        (typeof window !== 'undefined' && window.location.hostname === "localhost"
+          ? "http://localhost:8000"
+          : "https://YOUR_BACKEND_URL.hf.space");
 
       const response = await fetch(`${apiUrl}/api/chat/`, {
         method: "POST",
