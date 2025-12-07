@@ -11,9 +11,9 @@
 
 ## 🌟 Live Demo
 
-- **Frontend**: [https://speckit-book-hackathon-io.vercel.app/](https://speckit-book-hackathon-io.vercel.app/)
-- **Backend API**: [https://ashnaali22-hackhathon-backend.hf.space](https://ashnaali22-hackhathon-backend.hf.space)
-- **API Documentation**: [https://ashnaali22-hackhathon-backend.hf.space/docs](https://ashnaali22-hackhathon-backend.hf.space/docs)
+- **Frontend**: [YOUR_FRONTEND_URL.vercel.app](https://YOUR_FRONTEND_URL.vercel.app/)
+- **Backend API**: [YOUR_BACKEND_URL.hf.space](https://YOUR_BACKEND_URL.hf.space)
+- **API Documentation**: [YOUR_BACKEND_URL.hf.space/docs](https://YOUR_BACKEND_URL.hf.space/docs)
 
 ---
 
@@ -618,15 +618,15 @@ SOFTWARE.
 
 ## 📞 Contact & Support
 
-**Author**: Ashna Ghazanfar
-**Email**: nutellacookiesss@gmail.com
-**GitHub**: [@Syedaashnaghazanfar](https://github.com/Syedaashnaghazanfar)
-**Project Repository**: [speckit-book-hackathon.io](https://github.com/Syedaashnaghazanfar/speckit-book-hackathon.io)
+**Author**: Your Name
+**Email**: your-email@example.com
+**GitHub**: [@your-github-username](https://github.com/your-github-username)
+**Project Repository**: [your-repo-name](https://github.com/your-github-username/your-repo-name)
 
 ### **Getting Help**
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/Syedaashnaghazanfar/speckit-book-hackathon.io/issues)
-- 💡 **Feature Requests**: [Open a discussion](https://github.com/Syedaashnaghazanfar/speckit-book-hackathon.io/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/your-github-username/your-repo-name/issues)
+- 💡 **Feature Requests**: [Open a discussion](https://github.com/your-github-username/your-repo-name/discussions)
 - 📧 **Email**: For private inquiries
 
 ---
@@ -639,6 +639,6 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 ---
 
-**Made with ❤️ for the future of AI education - Ashna Ghazanfar**
+**Made with ❤️ for the future of AI education - Your Organization**
 
-**Last Updated**: December 2025
+**Last Updated**: December 7, 2025
