@@ -39,15 +39,15 @@
 ### Quick Tests
 ```bash
 # Test backend health
-curl https://ashnaali22-hackhathon-backend.hf.space/health
+curl https://YOUR_BACKEND_URL.hf.space/health
 
 # Test chat endpoint
-curl -X POST https://ashnaali22-hackhathon-backend.hf.space/api/chat \
+curl -X POST https://YOUR_BACKEND_URL.hf.space/api/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "What is ROS2?"}'
 
 # Test frontend
-open https://speckit-book-hackathon-io.vercel.app/
+open https://YOUR_FRONTEND_DOMAIN.vercel.app/
 ```
 
 ### Manual Testing Checklist
