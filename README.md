@@ -9,13 +9,7 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://vercel.com)
 [![Backend on HF](https://img.shields.io/badge/Backend-Hugging%20Face-yellow?logo=huggingface)](https://huggingface.co/)
 
-## 🌟 Live Demo
-
-- **Frontend**: [YOUR_FRONTEND_URL.vercel.app](https://YOUR_FRONTEND_URL.vercel.app/)
-- **Backend API**: [YOUR_BACKEND_URL.hf.space](https://YOUR_BACKEND_URL.hf.space)
-- **API Documentation**: [YOUR_BACKEND_URL.hf.space/docs](https://YOUR_BACKEND_URL.hf.space/docs)
-
----
+<!-- Live Demo section removed. Replace placeholders in documentation when you have deployed URLs. -->
 
 ## 🎯 Overview
 
